@@ -96,7 +96,6 @@ def main():
     # Parse and read file to dataframe
     args = parse_args()
     df = read_data(args.file)
-    print(df)
     
     # For each date calculate evapotranspiration
     for index, row in df.iterrows():
