@@ -6,8 +6,8 @@ This project calculates the reference evapotranspiration rate (ET0) from meteoro
 
 ## Installation
 To use this script use the sample file or download meteorlogical data from https://openweathermap.org/. 
-The data should data per day including:
-- latitude as decimal
+The input file should contain meteorological data per day including:
+- latitude as decimal coordinates
 - minimum temperature in degrees celcius
 - maximum temperature in degrees celcius
 - mean temperature in degrees celcius
